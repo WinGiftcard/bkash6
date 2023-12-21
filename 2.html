@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://client.pay.bka.sh/checkout/2 -->
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./skeleton.css">
+    <link rel="stylesheet" href="./checkout.css">
+    <script src="./nr-spa-1167.min.js.download"></script><script defer="" src="./relic.script.prod.js.download"></script>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+<style>undefined</style><link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="use-credentials"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./css2"></head>
+<body class="text-center fade-in" data-new-gr-c-s-check-loaded="14.1049.0" data-gr-ext-installed="">
+<span id="container-bg"></span>
+<div class="form-signin">
+    <span id="header"><div>
+    <div id="logoHolder">
+        <div id="logo"></div>
+    </div>
+
+    <hr id="itemDiv" class="itemDivider">
+    <div id="trxLoader" style="display: none;">
+        <span class="loadingText">Getting payment info.</span>
+        <span class="loadingText">Please wait...</span>
+    </div>
+    <div id="trxInfo">
+        <div id="merchantLogo" style="background-image: url(&quot;https://promo.cpp.bkash.com/merchant/logo/AtomicStore_01724538307.png&quot;);"></div>
+        <div class="infoNameInvoice">
+            <span id="merchantName">Atomic Store_01724538307</span>
+            <div class="infoInvoice">
+                <span class="invoiceText">Invoice:</span>
+                <span id="merchantInvoice1">CIATOJZDSRSLOFCHPC</span>
+            </div>
+            <span id="merchantInvoice2"></span>
+
+        </div>
+        <div class="trxMerchantAmount">
+            <span class="merchantAmount">৳ </span><span id="merchantAmountVal">1</span>
+        </div>
+    </div>
+</div></span>
+    <span id="container"><form class="formBody" action="https://client.pay.bka.sh/checkout/2#" method="POST" id="login_form">
+
+        <div id="inputHolder">
+            <span for="wallet" class="infoText">Your bKash Account number</span>
+            <input type="text" id="wallet" name="wallet" class="form-control" font-size="18px" ;="" placeholder="e.g 01XXXXXXXXX" maxlength="11" autocomplete="off" required="">
+
+            <span class="infoText">By clicking on <b> Confirm,</b> you are agreeing to the <b><a href="https://www.bkash.com/terms-of-use-checkout" target="_blank">terms &amp; conditions</a></b> </span>
+
+            <div id="error"></div>
+        </div>
+
+    <div id="loader_div" style="display: none;">
+        <div id="loader_image"></div>
+    </div>
+
+        <div id="button_div" class="buttonAction">
+            <button type="button" id="close_button">Close</button>
+            <button type="submit" id="submit_button">Confirm</button>
+
+        </div>
+</form></span>
+    <span id="footer"><div id="footerItem">
+    <div id="credit">
+        <div class="dialerItem">
+            <div id="dialer"></div>
+        </div>
+
+        <b id="dialText">16247</b>
+    </div>
+</div></span>
+</div>
+
+<script>
+    let baseUrl = "https://checkoutbg.pay.bka.sh";
+    let headerHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/header.html";
+    let walletHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/wallet.html";
+    let otpHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/otp.html";
+    let pinHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/pin.html";
+    let onlyPinHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/onlypin.html";
+    let cancelHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/close.html";
+    let errorHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/error.html";
+    let footerHtmlPath = "https://scripts.pay.bka.sh/resources/fragments/footer.html";
+</script>
+<script src="./purify.min.js.download"></script>
+<script src="./jsencrypt.min.js.download"></script>
+<script src="./crypto-js.min.js.download"></script>
+<script src="./aes.min.js.download"></script>
+<script src="./jquery-3.5.1.min.js.download"></script>
+
+
+    <script src="./pgw.en.morph.js.download"></script>
+    <script src="./pgw.util.js.download"></script>
+    <script src="./pgw.checkout.js.download"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
